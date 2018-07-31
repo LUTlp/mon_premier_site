@@ -1,0 +1,16 @@
+<h1>Users#utilisateurs</h1>
+<p>Find me in app/views/users/new.html.erb</p>
+<h2>HTML Forms</h2>
+
+<%= form_tag "/new", method: "post" do%>
+  Comment vous appelez-vous ?<br>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="text" name="username" value="votre prénom">
+  #username renvoie à la colonne du même nom dans la table user<br>
+  Votre bio<br>
+  <textarea type="text" name="bio" value="votre nom">
+  </textarea><br><br>
+  <input type="submit" value="Submit">
+<%end%>
+
+<p>Bienvenue dans la création d'utilisateurs !</p>
