@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# README
 
-Things you may want to cover:
+## Ohé Moussaillon
+Bienvenue sur mon application de ce mardi !
+Tu peux retrouver le site qui correspond à ce code sur :
+https://monpremiersitelutlp.herokuapp.com/
 
-* Ruby version
+## Marche à suivre
 
-* System dependencies
+Pour lire le code, lance ton ```bundle install```
 
-* Configuration
+tu verras dans le gemfile qu'on ne gère pas la base de données de la même façon selon que nous sommes en test ou en production.
 
-* Database creation
+## Pour info
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version : 2.5.1
